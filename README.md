@@ -36,14 +36,14 @@ python main.py --stage stage2_student
 ---
 ## Citation
 If you find this work useful, please cite our paper:
-'''bibtex
+```bibtex
 @article{shin2026lrmil,
   title={LRMIL: Efficient Low-Resolution Multiple Instance Learning via High-Resolution Knowledge Distillation for Whole Slide Image Classification},
   author={Shin, Yonghan and Jeong, Won-Ki},
   journal={arXiv preprint arXiv:2606.06864},
   year={2026}
 }
-'''
+```
 
 ---
 ## Acknowledgements
