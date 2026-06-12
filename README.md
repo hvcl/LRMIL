@@ -12,6 +12,12 @@ Multiple instance learning (MIL) has become a standard paradigm for whole slide 
 To address these limitations, we propose an efficient low-resolution multiple instance learning (LRMIL) framework that transfers high-resolution knowledge to low-resolution representations. LRMIL adopts a two-stage distillation strategy. First, patch-level cross-resolution distillation aligns low-resolution patch embeddings with high-resolution representations. Second, slide-level knowledge distillation trains a low-resolution student MIL model under both slide-level supervision and teacher guidance. At inference time, LRMIL operates exclusively on low-resolution patches, substantially reducing data preprocessing and computational cost. Extensive experiments on multiple WSI benchmarks demonstrate that LRMIL consistently outperforms state-of-the-art MIL methods while achieving more efficient inference. These results highlight LRMIL as a practical and scalable solution for WSI analysis in clinical pathology.
 
 ---
+## Datasets
+You can download datasets by below links
+TCGA cohorts(BRCA, NSCLC, RCC) : https://portal.gdc.cancer.gov/analysis_page?app=Projects
+BRACs : https://www.bracs.icar.cnr.it/
+
+---
 ## How to use
 ### Train Stage 1
 ```text
