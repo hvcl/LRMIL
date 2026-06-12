@@ -14,7 +14,9 @@ To address these limitations, we propose an efficient low-resolution multiple in
 ---
 ## Datasets
 You can download datasets by below links
+
 TCGA cohorts(BRCA, NSCLC, RCC) : https://portal.gdc.cancer.gov/analysis_page?app=Projects
+
 BRACs : https://www.bracs.icar.cnr.it/
 
 ---
@@ -31,3 +33,20 @@ python main.py --stage stage2_teacher
 ```text
 python main.py --stage stage2_student
 ```
+---
+## Citation
+If you find this work useful, please cite our paper:
+'''bibtex
+@article{shin2026lrmil,
+  title={LRMIL: Efficient Low-Resolution Multiple Instance Learning via High-Resolution Knowledge Distillation for Whole Slide Image Classification},
+  author={Shin, Yonghan and Jeong, Won-Ki},
+  journal={arXiv preprint arXiv:2606.06864},
+  year={2026}
+}
+'''
+
+---
+## Acknowledgements
+This work was conducted at the **High-performance Visual Computing Lab (HVCL), Korea University**.
+
+We gratefully acknowledge the public datasets used for evaluation, vision backbone used for experiment, and the authors of ABMIL, CLAM, DSMIL, TransMIL, DTFD-MIL, ZOOMMIL and HDMIL for their foundational contributions.
